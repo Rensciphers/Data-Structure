@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.HashMap;
+import java.util.HashMap; //creative implement import
 
 
 public class PapasPizzeriaGUI extends JFrame {
@@ -117,7 +117,7 @@ public class PapasPizzeriaGUI extends JFrame {
         broccoliCheckbox.setBounds(120, 180, 100, 30);
         add(broccoliCheckbox);
 
-        JCheckBox extraCheeseCheckbox = new JCheckBox("Extra Cheese");
+        JCheckBox extraCheeseCheckbox = new JCheckBox("Extra Cheese --> No Extra Charge!!");
         extraCheeseCheckbox.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -125,7 +125,7 @@ public class PapasPizzeriaGUI extends JFrame {
             }
         });
         extraCheeseCheckbox.setBackground(peach);
-        extraCheeseCheckbox.setBounds(120, 210, 100, 30);
+        extraCheeseCheckbox.setBounds(120, 210, 225, 30);
         add(extraCheeseCheckbox);
 
         //price label
