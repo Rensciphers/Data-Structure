@@ -18,7 +18,7 @@ public class pizzaGUIFrame extends JFrame{
         setTitle("Pizza Order");
         setSize(850, 400);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setLayout(new GridLayout());
+        setLayout(new GridLayout()); // creative piece; trying a new GUI layout
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.fill = GridBagConstraints.HORIZONTAL;
         gbc.insets = new Insets(5, 5, 5, 5);
